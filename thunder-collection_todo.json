@@ -1,0 +1,202 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "todo",
+    "collectionId": "d5e51749-6952-4173-b83b-b3bf88eabafb",
+    "dateExported": "2024-08-10T17:05:32.472Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d712aae8-e906-4624-a9b0-cc392d2569df",
+            "colId": "d5e51749-6952-4173-b83b-b3bf88eabafb",
+            "containerId": "",
+            "name": "get",
+            "url": "http://127.0.0.1:8000/todo/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-24T04:14:01.012Z",
+            "modified": "2024-07-24T17:34:09.255Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "token c1533f967457a009c3159a1e9c940761ab73b170"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "16283160-000e-499a-96aa-d4b40a8478d7",
+            "colId": "d5e51749-6952-4173-b83b-b3bf88eabafb",
+            "containerId": "",
+            "name": "post",
+            "url": "http://127.0.0.1:8000/todo/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-07-24T04:15:11.595Z",
+            "modified": "2024-07-25T13:03:07.941Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Authorization",
+                    "value": "token c1533f967457a009c3159a1e9c940761ab73b170"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": " {\n    \"title\": \"apaple2\",\n    \"description\": \"sweet apple2\",\n    \"is_done\": true\n}    ",
+                "form": []
+            }
+        },
+        {
+            "_id": "9e045e74-f09c-401b-8128-e82a37fa94cf",
+            "colId": "d5e51749-6952-4173-b83b-b3bf88eabafb",
+            "containerId": "",
+            "name": "add_date_to_todo",
+            "url": "http://127.0.0.1:8000/todo-view-set/add_date_to_todo/",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-07-24T05:18:33.175Z",
+            "modified": "2024-07-24T05:55:13.413Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"todo\": \"ecd50871-1628-46ea-8a7b-be4d5a7fb9b8\",\n    \"timing\": \"2024-07-24\"\n}    ",
+                "form": []
+            }
+        },
+        {
+            "_id": "030e9e77-8091-490d-8d38-ead5b33b3c05",
+            "colId": "d5e51749-6952-4173-b83b-b3bf88eabafb",
+            "containerId": "",
+            "name": "todo-view-set",
+            "url": "http://127.0.0.1:8000/todo-view-set/",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-07-24T17:56:41.332Z",
+            "modified": "2024-07-24T17:56:41.332Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": " {\r\n    \"title\": \"apaple\",\r\n    \"description\": \"sweet apple\",\r\n    \"is_done\": true\r\n}    ",
+                "form": []
+            }
+        },
+        {
+            "_id": "ba5a0aaa-cdbf-4d59-9338-fda03c39e248",
+            "colId": "d5e51749-6952-4173-b83b-b3bf88eabafb",
+            "containerId": "",
+            "name": "generic",
+            "url": "http://127.0.0.1:8000/todo-generic/",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-07-25T12:58:55.804Z",
+            "modified": "2024-07-25T13:48:57.631Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Authorization",
+                    "value": "token c1533f967457a009c3159a1e9c940761ab73b170"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": " {\n    \"title\": \"apaple33\",\n    \"description\": \"sweet apple333\",\n    \"is_done\": true\n}    ",
+                "form": []
+            }
+        },
+        {
+            "_id": "3651de18-19c9-4f12-b084-b91312e52b27",
+            "colId": "d5e51749-6952-4173-b83b-b3bf88eabafb",
+            "containerId": "",
+            "name": "get_timing_todo",
+            "url": "http://127.0.0.1:8000/todo-view-set/get_timing_todo/",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-07-24T05:56:22.574Z",
+            "modified": "2024-07-24T05:57:43.490Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"todo\": \"ecd50871-1628-46ea-8a7b-be4d5a7fb9b8\",\n    \"timing\": \"2024-07-24\"\n}    ",
+                "form": []
+            }
+        },
+        {
+            "_id": "5c61c646-e468-4a99-a619-efc7a44c4612",
+            "colId": "d5e51749-6952-4173-b83b-b3bf88eabafb",
+            "containerId": "",
+            "name": "generic update-delete",
+            "url": "http://127.0.0.1:8000/todo-generic/ecd50871-1628-46ea-8a7b-be4d5a7fb9b8/",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-07-25T13:45:09.048Z",
+            "modified": "2024-07-25T13:50:17.359Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Authorization",
+                    "value": "token c1533f967457a009c3159a1e9c940761ab73b170"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": " {\n    \"title\": \"allu\",\n    \"description\": \"sweet32 apple\",\n    \"is_done\": true\n}    ",
+                "form": []
+            }
+        },
+        {
+            "_id": "ab0675de-daef-45f6-ba5b-617af03b5274",
+            "colId": "d5e51749-6952-4173-b83b-b3bf88eabafb",
+            "containerId": "",
+            "name": "token",
+            "url": "http://127.0.0.1:8000/api-token-auth/",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-07-24T17:13:30.419Z",
+            "modified": "2024-07-24T17:15:03.738Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"username\": \"admin\",\n    \"password\": \"admin\"\n}    ",
+                "form": []
+            }
+        }
+    ],
+    "ref": "JX1yLW7zC6IFFKiZHdxfd_oQ-5PLt5jYgFn4XrU4GvoRpt7G8qQIJ1wGaMWhTVPQUB4Ftd9yFPwX77ZPAkRC8g"
+}
